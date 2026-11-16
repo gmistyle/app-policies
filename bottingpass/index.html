@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>BottingPass - Discord 社群管理軟體授權</title>
+<meta name="description" content="BottingPass 提供 Discord 社群管理機器人的月租軟體使用授權，入門版 499 元／月、專業版 899 元／月。">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = { theme: { extend: { colors: { brand: { 400: '#818cf8', 500: '#6366f1', 600: '#4f46e5' } } } } };
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  .glow { box-shadow: 0 0 0 1px rgba(99,102,241,.5), 0 20px 60px -20px rgba(99,102,241,.45); }
+  details > summary { list-style: none; cursor: pointer; }
+  details > summary::-webkit-details-marker { display: none; }
+  details[open] .chev { transform: rotate(180deg); }
+</style>
+</head>
+<body class="bg-slate-950 text-slate-200 antialiased font-sans">
+
+<!-- Header -->
+<header class="sticky top-0 z-30 border-b border-slate-800 bg-slate-950/80 backdrop-blur">
+  <div class="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+    <a href="#top" class="text-lg font-bold tracking-tight text-white">Botting<span class="text-brand-400">Pass</span></a>
+    <nav class="hidden gap-6 text-sm text-slate-300 md:flex">
+      <a href="#features" class="hover:text-white">功能</a>
+      <a href="#pricing" class="hover:text-white">方案與定價</a>
+      <a href="#refund" class="hover:text-white">退款政策</a>
+      <a href="#terms" class="hover:text-white">服務條款</a>
+      <a href="#faq" class="hover:text-white">常見問題</a>
+      <a href="#contact" class="hover:text-white">聯絡我們</a>
+    </nav>
+    <button id="menuBtn" class="rounded-md p-2 text-slate-300 hover:bg-slate-800 md:hidden" aria-label="開啟選單" aria-expanded="false">
+      <svg class="h-6 w-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+  </div>
+  <nav id="mobileNav" class="hidden border-t border-slate-800 px-4 pb-3 text-sm md:hidden">
+    <a href="#features" class="block py-2">功能</a>
+    <a href="#pricing" class="block py-2">方案與定價</a>
+    <a href="#refund" class="block py-2">退款政策</a>
+    <a href="#terms" class="block py-2">服務條款</a>
+    <a href="#faq" class="block py-2">常見問題</a>
+    <a href="#contact" class="block py-2">聯絡我們</a>
+  </nav>
+</header>
+
+<main id="top">
+
+<!-- Hero -->
+<section class="relative overflow-hidden">
+  <div class="pointer-events-none absolute inset-0 -z-10 bg-[radial-gradient(ellipse_at_top,rgba(99,102,241,.25),transparent_60%)]"></div>
+  <div class="mx-auto max-w-4xl px-4 py-20 text-center md:py-28">
+    <p class="mb-4 inline-block rounded-full border border-slate-700 px-3 py-1 text-xs text-slate-300">Discord 社群管理軟體授權</p>
+    <h1 class="text-4xl font-extrabold leading-tight text-white md:text-6xl">BottingPass<br class="md:hidden"><span class="text-brand-400"> 社群通行證</span></h1>
+    <p class="mx-auto mt-6 max-w-2xl text-base text-slate-300 md:text-lg">
+      專為 Discord 社群經營者打造的機器人軟體。以月租方式取得使用授權，省下國外平台的高額抽成，專心經營你的社群。
+    </p>
+    <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+      <a href="#pricing" class="w-full rounded-lg bg-brand-500 px-6 py-3 font-semibold text-white hover:bg-brand-600 sm:w-auto">查看方案</a>
+      <a href="#contact" class="w-full rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-200 hover:bg-slate-900 sm:w-auto">聯絡客服</a>
+    </div>
+  </div>
+</section>
+
+<!-- Features -->
+<section id="features" class="mx-auto max-w-6xl px-4 py-16">
+  <h2 class="text-center text-2xl font-bold text-white md:text-3xl">軟體功能</h2>
+  <p class="mt-2 text-center text-slate-400">加入你的 Discord 伺服器，立即啟用</p>
+  <div class="mt-10 grid gap-6 md:grid-cols-3">
+    <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+      <h3 class="text-lg font-semibold text-white">身分組自動管理</h3>
+      <p class="mt-2 text-sm text-slate-400">依授權狀態自動指派與調整成員身分組，減少手動作業。</p>
+    </div>
+    <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+      <h3 class="text-lg font-semibold text-white">機器人派發功能</h3>
+      <p class="mt-2 text-sm text-slate-400">以指令與流程設定，自動化處理社群內的活動與派發作業（專業版完整開放）。</p>
+    </div>
+    <div class="rounded-xl border border-slate-800 bg-slate-900/60 p-6">
+      <h3 class="text-lg font-semibold text-white">簡單綁定、即時開通</h3>
+      <p class="mt-2 text-sm text-slate-400">將機器人邀請進伺服器並綁定授權，完成後即可使用。</p>
+    </div>
+  </div>
+</section>
+
+<!-- Pricing -->
+<section id="pricing" class="mx-auto max-w-6xl px-4 py-16">
+  <h2 class="text-center text-2xl font-bold text-white md:text-3xl">方案與定價</h2>
+  <p class="mt-2 text-center text-slate-400">單純月租制軟體使用授權，價格皆為新台幣 (TWD)</p>
+  <div class="mx-auto mt-10 grid max-w-4xl gap-6 md:grid-cols-2">
+
+    <div class="flex flex-col rounded-2xl border border-slate-800 bg-slate-900/60 p-8">
+      <h3 class="text-xl font-semibold text-white">入門版</h3>
+      <p class="mt-1 text-sm text-slate-400">適合 50 人以下社群，幫你省下國外平台高昂抽成。</p>
+      <p class="mt-6 text-4xl font-extrabold text-white">NT$ 499 <span class="text-base font-medium text-slate-400">/ 月</span></p>
+      <ul class="mt-6 space-y-3 text-sm text-slate-300">
+        <li>✓ 適用成員 50 人以下之伺服器</li>
+        <li>✓ 身分組自動管理</li>
+        <li>✓ 基礎機器人指令</li>
+        <li>✓ Email 客服支援</li>
+      </ul>
+      <a href="#contact" class="mt-8 rounded-lg border border-slate-700 px-4 py-3 text-center font-semibold text-slate-100 hover:bg-slate-800">洽詢購買</a>
+    </div>
+
+    <div class="glow relative flex flex-col rounded-2xl border border-brand-500 bg-slate-900 p-8">
+      <span class="absolute -top-3 right-6 rounded-full bg-brand-500 px-3 py-1 text-xs font-semibold text-white">推薦</span>
+      <h3 class="text-xl font-semibold text-white">專業版</h3>
+      <p class="mt-1 text-sm text-slate-400">無人數上限，解鎖完整機器人派發功能。</p>
+      <p class="mt-6 text-4xl font-extrabold text-white">NT$ 899 <span class="text-base font-medium text-slate-400">/ 月</span></p>
+      <ul class="mt-6 space-y-3 text-sm text-slate-300">
+        <li>✓ 伺服器人數無上限</li>
+        <li>✓ 完整機器人派發功能</li>
+        <li>✓ 身分組自動管理</li>
+        <li>✓ 優先 Email 客服支援</li>
+      </ul>
+      <a href="#contact" class="mt-8 rounded-lg bg-brand-500 px-4 py-3 text-center font-semibold text-white hover:bg-brand-600">洽詢購買</a>
+    </div>
+  </div>
+  <p class="mx-auto mt-6 max-w-3xl text-center text-xs text-slate-500">
+    購買內容為 BottingPass 機器人之「月租軟體使用授權」，非實體商品。購買前請先閱讀下方退款政策與服務條款。
+  </p>
+</section>
+
+<!-- Refund -->
+<section id="refund" class="mx-auto max-w-4xl px-4 py-16">
+  <div class="rounded-2xl border border-amber-500/40 bg-amber-500/5 p-8">
+    <h2 class="text-2xl font-bold text-white">退換貨政策</h2>
+    <p class="mt-4 text-lg font-semibold text-amber-300">本服務為數位虛擬軟體授權，一經綁定開通即不接受退款。</p>
+    <ul class="mt-4 list-disc space-y-2 pl-5 text-sm text-slate-300">
+      <li>授權綁定並開通後，即視為已開始提供服務，恕不接受退款或退換。</li>
+      <li>尚未綁定開通前，若有疑問或需取消訂單，請來信客服，我們將協助處理。</li>
+      <li>若因本服務本身故障，導致無法正常使用，請來信客服，我們將協助排除或依實際情況處理。</li>
+      <li>月租方案可隨時停止續約，停止後不再收取下期費用，當期已開通之授權可使用至期滿。</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Terms -->
+<section id="terms" class="mx-auto max-w-4xl px-4 py-16">
+  <h2 class="text-2xl font-bold text-white md:text-3xl">服務條款</h2>
+  <div class="mt-6 space-y-5 text-sm leading-relaxed text-slate-300">
+    <div>
+      <h3 class="font-semibold text-white">1. 購買內容</h3>
+      <p class="mt-1">買家所購買者為「BottingPass 機器人的月租使用權」，即於訂閱期間內使用本軟體之非專屬、不可轉讓之授權。本服務不涉及軟體原始碼之轉讓或所有權移轉。</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">2. 計費方式</h3>
+      <p class="mt-1">各方案依公告之月租費用計費，授權期間以月為單位。價格以新台幣計價，並以本頁公告為準。</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">3. 使用規範</h3>
+      <p class="mt-1">買家應遵守 Discord 服務條款及相關法令，不得將本軟體用於違法、詐騙、騷擾或任何侵害他人權益之用途。違反者，我們得暫停或終止授權，且不予退款。</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">4. 授權終止</h3>
+      <p class="mt-1">買家可隨時停止續約；授權期滿後，機器人功能將停止提供。</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">5. 服務變更</h3>
+      <p class="mt-1">我們得視營運需要調整功能或服務內容，重大變更將事先於網站公告或以 Email 通知。</p>
+    </div>
+    <div>
+      <h3 class="font-semibold text-white">6. 退款</h3>
+      <p class="mt-1">退款事項依上方「退換貨政策」辦理。</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="mx-auto max-w-4xl px-4 py-16">
+  <h2 class="text-2xl font-bold text-white md:text-3xl">常見問題</h2>
+  <div class="mt-6 divide-y divide-slate-800 rounded-xl border border-slate-800 bg-slate-900/60">
+    <details class="group p-5">
+      <summary class="flex items-center justify-between font-medium text-white">可以退款嗎？
+        <svg class="chev h-5 w-5 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <p class="mt-3 text-sm text-slate-300">本服務為數位虛擬軟體授權，一經綁定開通即不接受退款。尚未開通前如需取消，請聯絡客服。</p>
+    </details>
+    <details class="group p-5">
+      <summary class="flex items-center justify-between font-medium text-white">我購買的是什麼？
+        <svg class="chev h-5 w-5 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <p class="mt-3 text-sm text-slate-300">你購買的是 BottingPass 機器人的月租軟體使用授權，於訂閱期間內可在你的 Discord 伺服器使用。</p>
+    </details>
+    <details class="group p-5">
+      <summary class="flex items-center justify-between font-medium text-white">入門版與專業版差在哪？
+        <svg class="chev h-5 w-5 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <p class="mt-3 text-sm text-slate-300">入門版適合 50 人以下社群；專業版無人數上限，並解鎖完整機器人派發功能。</p>
+    </details>
+    <details class="group p-5">
+      <summary class="flex items-center justify-between font-medium text-white">如何停止續約？
+        <svg class="chev h-5 w-5 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <p class="mt-3 text-sm text-slate-300">請來信客服告知即可，停止後不再收取下期費用，當期授權可使用至期滿。</p>
+    </details>
+    <details class="group p-5">
+      <summary class="flex items-center justify-between font-medium text-white">有問題如何聯絡？
+        <svg class="chev h-5 w-5 transition" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></svg></summary>
+      <p class="mt-3 text-sm text-slate-300">請來信 <a class="text-brand-400 underline" href="mailto:realjimmycycle@gmail.com">realjimmycycle@gmail.com</a>，我們會盡快回覆。</p>
+    </details>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer / Contact -->
+<footer id="contact" class="border-t border-slate-800 bg-slate-950">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 md:grid-cols-3">
+    <div>
+      <p class="text-lg font-bold text-white">Botting<span class="text-brand-400">Pass</span></p>
+      <p class="mt-2 text-sm text-slate-400">Discord 社群管理軟體授權</p>
+    </div>
+    <div>
+      <p class="font-semibold text-white">客服聯絡</p>
+      <p class="mt-2 text-sm text-slate-300">Email：<a class="text-brand-400 underline" href="mailto:realjimmycycle@gmail.com">realjimmycycle@gmail.com</a></p>
+    </div>
+    <div>
+      <p class="font-semibold text-white">相關條款</p>
+      <ul class="mt-2 space-y-1 text-sm text-slate-300">
+        <li><a class="hover:text-white" href="#pricing">方案與定價</a></li>
+        <li><a class="hover:text-white" href="#refund">退換貨政策</a></li>
+        <li><a class="hover:text-white" href="#terms">服務條款</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="border-t border-slate-800 py-4 text-center text-xs text-slate-500">
+    © <span id="year">2026</span> BottingPass. All rights reserved.
+  </div>
+</footer>
+
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const btn = document.getElementById('menuBtn'), nav = document.getElementById('mobileNav');
+  btn.addEventListener('click', () => {
+    const open = nav.classList.toggle('hidden') === false;
+    btn.setAttribute('aria-expanded', open);
+  });
+  nav.querySelectorAll('a').forEach(a => a.addEventListener('click', () => {
+    nav.classList.add('hidden'); btn.setAttribute('aria-expanded', 'false');
+  }));
+</script>
+</body>
+</html>
